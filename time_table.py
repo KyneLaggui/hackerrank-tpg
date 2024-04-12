@@ -3,7 +3,7 @@ def time_table(a, b):
         for i in range(1, b + 1):
             print(f"{a} * {i} = {a * i}")
     else:
-        for i in range(-1, b - 1, -1):
+        for i in range(b, 1):
             print(f"{a} * {i} = {a * i}")
 
 def constraints(a, b):
